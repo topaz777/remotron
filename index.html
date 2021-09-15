@@ -1,0 +1,53 @@
+<!-- <!DOCTYPE html> -->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Remotron</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="panel-body" id="fileZone">
+          File <b>Drop</b>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="configDiv">
+      <div class="col">
+        <form>
+
+          <!--
+          <div class="form-group">
+            <label for="site_code">사이트코드</label>
+            <input type="text" class="form-control" id="site_code" placeholder="999014">
+          </div>
+          <div class="form-group">
+            <label for="floor_no">층</label>
+            <input type="text" class="form-control" id="floor_no" placeholder="2층">
+          </div>
+          <div class="form-group">
+            <label for="room_name">위치</label>
+            <input type="text" class="form-control" id="room_name" placeholder="XX실">
+          </div>
+          <div class="form-group">
+            <label for="device_name">장비명</label>
+            <input type="text" class="form-control" id="device_name" placeholder="자가대출기1">
+          </div>
+          <button type="button" class="btn btn-primary" id="save_btn">저장</button>
+           -->
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    require('./renderer.js')
+    require('./rtc.js')
+  </script>
+</body>
+</html>
